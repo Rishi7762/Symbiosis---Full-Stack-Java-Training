@@ -13,7 +13,7 @@ class Remainder{
         System.out.println("Cannot divide by zero");
 			
     while(dividend >= divisor){
-        dividend  = dividend - divisor;
+        dividend  -= divisor;
     }
 			
     int remainder = dividend;
